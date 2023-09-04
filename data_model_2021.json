@@ -1,0 +1,208 @@
+{
+  "DeviceID.Manufacturer": [
+    false,
+    "DGT Technologies Co., Ltd.",
+    "xsd:string"
+  ],
+  "DeviceID.OUI": [
+    false,
+    "202BC1",
+    "xsd:string"
+  ],
+  "DeviceID.ProductClass": [
+    false,
+    "4G-FWP",
+    "xsd:string"
+  ],
+  "DeviceID.SerialNumber": [
+    false,
+    "8KA8WA1151100043",
+    "xsd:string"
+  ],
+  "InternetGatewayDevice.": [
+    false
+  ],
+  "InternetGatewayDevice.DeviceInfo.": [
+    false
+  ],
+  "InternetGatewayDevice.DeviceInfo.AdditionalSoftwareVersion": [
+    false,
+    "1.0.0",
+    "xsd:string"
+  ],
+  "InternetGatewayDevice.DeviceInfo.Description": [
+    false,
+    "DGT 4G FWP",
+    "xsd:string"
+  ],
+  "InternetGatewayDevice.DeviceInfo.DeviceLog": [
+    false,
+    "",
+    "xsd:string"
+  ],
+  "InternetGatewayDevice.DeviceInfo.HardwareVersion": [
+    false,
+    "40501",
+    "xsd:string"
+  ],
+  "InternetGatewayDevice.DeviceInfo.Manufacturer": [
+    false,
+    "DGT Technologies Co., Ltd.",
+    "xsd:string"
+  ],
+  "InternetGatewayDevice.DeviceInfo.ManufacturerOUI": [
+    false,
+    "202BC1",
+    "xsd:string"
+  ],
+  "InternetGatewayDevice.DeviceInfo.ModelName": [
+    false,
+    "4G-FWP",
+    "xsd:string"
+  ],
+  "InternetGatewayDevice.DeviceInfo.ModemFirmwareVersion": [
+    false,
+    "",
+    "xsd:string"
+  ],
+  "InternetGatewayDevice.DeviceInfo.ProductClass": [
+    false,
+    "4G-FWP",
+    "xsd:string"
+  ],
+  "InternetGatewayDevice.DeviceInfo.ProvisioningCode": [
+    true,
+    "",
+    "xsd:string"
+  ],
+  "InternetGatewayDevice.DeviceInfo.SerialNumber": [
+    false,
+    "0",
+    "xsd:string"
+  ],
+  "InternetGatewayDevice.DeviceInfo.SoftwareVersion": [
+    false,
+    "V100R001IRQC56B000",
+    "xsd:string"
+  ],
+  "InternetGatewayDevice.DeviceInfo.SpecVersion": [
+    false,
+    "1",
+    "xsd:string"
+  ],
+  "InternetGatewayDevice.DeviceInfo.UpTime": [
+    false,
+    "213138",
+    "xsd:unsignedInt"
+  ],
+  "InternetGatewayDevice.DeviceInfo.X_DGT_PortalManagement.": [
+    false
+  ],
+  "InternetGatewayDevice.DeviceInfo.X_DGT_PortalManagement.Enable": [
+    true,
+    "false",
+    "xsd:boolean"
+  ],
+  "InternetGatewayDevice.DeviceInfo.X_DGT_PortalManagement.PortalUrl-Computer": [
+    true,
+    "",
+    "xsd:string"
+  ],
+  "InternetGatewayDevice.DeviceInfo.X_DGT_PortalManagement.PortalUrl-Phone": [
+    true,
+    "",
+    "xsd:string"
+  ],
+  "InternetGatewayDevice.DeviceInfo.X_DGT_PortalManagement.PortalUrl-STB": [
+    true,
+    "",
+    "xsd:string"
+  ],
+  "InternetGatewayDevice.DeviceInfo.X_DGT_ServiceManage.": [
+    false
+  ],
+  "InternetGatewayDevice.DeviceInfo.X_DGT_ServiceManage.TelnetEnable": [
+    true,
+    "true",
+    "xsd:boolean"
+  ],
+  "InternetGatewayDevice.DeviceInfo.X_DGT_ServiceManage.TelnetPort": [
+    true,
+    "23",
+    "xsd:int"
+  ],
+  "InternetGatewayDevice.DeviceSummary": [
+    false,
+    "InternetGatewayDevice:1.1[](Baseline:1, EthernetLAN:1, WiFiLAN:1, WIMAXWAN:1, Bridging:1, Time:1, IPPing:1",
+    "xsd:string"
+  ],
+  "InternetGatewayDevice.ManagementServer.": [
+    false
+  ],
+  "InternetGatewayDevice.ManagementServer.ConnectionRequestPassword": [
+    true,
+    "69t0mkjya1",
+    "xsd:string"
+  ],
+  "InternetGatewayDevice.ManagementServer.ConnectionRequestURL": [
+    false,
+    "http://127.0.0.1:57543/",
+    "xsd:string"
+  ],
+  "InternetGatewayDevice.ManagementServer.ConnectionRequestUsername": [
+    true,
+    "202BC1-4G-FWP-8KA8WA1151100043",
+    "xsd:string"
+  ],
+  "InternetGatewayDevice.ManagementServer.ParameterKey": [
+    false,
+    "",
+    "xsd:string"
+  ],
+  "InternetGatewayDevice.ManagementServer.Password": [
+    true,
+    "acs",
+    "xsd:string"
+  ],
+  "InternetGatewayDevice.ManagementServer.PeriodicInformEnable": [
+    true,
+    "true",
+    "xsd:boolean"
+  ],
+  "InternetGatewayDevice.ManagementServer.PeriodicInformInterval": [
+    true,
+    "300",
+    "xsd:unsignedInt"
+  ],
+  "InternetGatewayDevice.ManagementServer.URL": [
+    true,
+    "http://192.168.1.6:7547",
+    "xsd:string"
+  ],
+  "InternetGatewayDevice.ManagementServer.Username": [
+    true,
+    "acs",
+    "xsd:string"
+  ],
+  "InternetGatewayDevice.ManagementServer.X_DGT_SSLCertEnable": [
+    true,
+    "false",
+    "xsd:boolean"
+  ],
+  "InternetGatewayDevice.ManagementServerConfig.": [
+    false
+  ],
+  "InternetGatewayDevice.ManagementServerConfig.UpdateFlag": [
+    true,
+    "0",
+    "xsd:unsignedInt"
+  ],
+  "InternetGatewayDevice.ManagementServerConfig.UpdateUrl": [
+    true,
+    "http://172.200.20.60:7547",
+    "xsd:string"
+  ],
+  "_cookie": [
+    ""
+  ]
+}
