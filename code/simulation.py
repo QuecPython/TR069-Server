@@ -277,7 +277,7 @@ def _start(dataModel, serialNumber, acsUrl):
     basicAuth = "Basic " + ubinascii.b2a_base64(auth_data)[:-1].decode()
 
     def func(conn, ip, port):
-        print("func ----- {} {}".format(ip, port))
+        # print("func ----- {} {}".format(ip, port))
         global pendingInform
         if not nextInformTimeout:
             pendingInform = True
@@ -359,16 +359,11 @@ if __name__ == '__main__':
     _thread.stack_size(32 * 1024)
     requestOptions = {
         "protocol": 'http:',
-        "slashes": True,
-        "auth": None,
         "host": '39.106.195.193:9090',
         "port": '9090',
         "hostname": '39.106.195.193',
         "server_ip": '0.0.0.0',
         "server_port": 8001,
-        "hash": None,
-        "search": None,
-        "query": None,
         "pathname": '/ACS-server/ACS/pawn',
         "path": '/ACS-server/ACS/pawn',
         "href": 'http://39.106.195.193:9090/ACS-server/ACS/pawn',
@@ -379,5 +374,5 @@ if __name__ == '__main__':
     with open('usr/data_model_2021.json', 'r') as f:
         # 使用json.load()方法将JSON数据读取为Python对象
         data = json.load(f)
-    serialNumber = "000020"  # 设备序列号
+    serialNumber = "000021"  # 设备序列号
     start(data, serialNumber, "http://39.106.195.193:9090/ACS-server/ACS/xjin")

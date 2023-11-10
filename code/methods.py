@@ -205,14 +205,15 @@ def GetParameterValues(device, request, callback):
     name = None
     for p in parameterNames:
         name = p["text"]
-    value = device[name][1]
-    _type = device[name][2]
 
-    valueStruct = xmlUtils.node("ParameterValueStruct", {}, [
-        xmlUtils.node("Name", {}, name),
-        xmlUtils.node("Value", {"xsi:type": _type}, value)
-    ])
-    params.append(valueStruct)
+    if len(device[name]) > 1:
+        value = device[name][1]
+        _type = device[name][2]
+        valueStruct = xmlUtils.node("ParameterValueStruct", {}, [
+            xmlUtils.node("Name", {}, name),
+            xmlUtils.node("Value", {"xsi:type": _type}, value)
+        ])
+        params.append(valueStruct)
 
     response = xmlUtils.node(
         "cwmp:GetParameterValuesResponse",
