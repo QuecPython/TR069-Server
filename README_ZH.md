@@ -1,6 +1,6 @@
 # QuecPython-TR069-CWMP
 
-中文| [English](./README.md) 
+中文| [English](./readme.md) 
 
 ## 概述
 
